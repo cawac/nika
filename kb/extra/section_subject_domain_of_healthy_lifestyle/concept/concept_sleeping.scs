@@ -1,0 +1,10 @@
+concept_sleeping
+<- sc_node_class;
+=> nrel_main_idtf:
+    [Сон] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Sleeping] (* <- lang_en;; *);
+=> nrel_note:
+    [Сон - естественное состояние покоя организма, необходимое для восстановления физического и психического здоровья. Регулярное и качественное сна важно для поддержания энергии, концентрации и общего благополучия.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Sleep is a natural state of rest for the body, essential for the restoration of physical and mental health. Regular and quality sleep is crucial for maintaining energy, concentration, and overall well-being.] (* <- lang_en;; *);;

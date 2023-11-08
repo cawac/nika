@@ -1,0 +1,10 @@
+﻿stress_distraction
+<- concept_stress_management;
+=> nrel_main_idtf:
+	[Отвлечение от стрессовой ситуации] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Stress Distraction] (* <- lang_en;; *);
+=> nrel_note:
+	[Методы и приемы, используемые для снятия стресса и отвлечения от негативных ситуаций с целью восстановления эмоционального благополучия.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Methods and techniques used to alleviate stress and distract from negative situations with the goal of restoring emotional well-being.] (* <- lang_en;; *);;

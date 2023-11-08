@@ -1,0 +1,10 @@
+﻿concept_health
+<- sc_node_class;
+=> nrel_main_idtf:
+    [Здоровье] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Health] (* <- lang_en;; *);
+=> nrel_note:
+    [Состояние полного физического, психического и социального благополучия. Оно не только отсутствие болезней, но и активное участие в здоровьесберегающих практиках, включая правильное питание, регулярную физическую активность, и заботу о ментальном благополучии.] (* <- lang_ru;; *);
+=> nrel_note:
+    [The state of complete physical, mental, and social well-being. It is not merely the absence of diseases but also involves active engagement in health-promoting practices, including proper nutrition, regular physical activity, and care for mental well-being.] (* <- lang_en;; *);;

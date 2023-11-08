@@ -1,0 +1,12 @@
+concept_physical_activity
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_healthy_habits;
+=> nrel_main_idtf:
+    [Физическая активность] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Physical Activity] (* <- lang_en;; *);
+=> nrel_note:
+    [Физическая активность представляет собой любую деятельность, которая требует усилий мышц и увеличивает энергозатраты организма. Она включает в себя упражнения, спорт, прогулки и другие формы двигательной активности, способствующие укреплению здоровья и физической формы.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Physical activity is any activity that requires muscle effort and increases the body's energy expenditure. It includes exercises, sports, walking, and other forms of movement that contribute to improving health and physical fitness.] (* <- lang_en;; *);;

@@ -1,0 +1,21 @@
+﻿healthy_sleep
+<- concept_sleeping;
+=> nrel_main_idtf:
+	[Здоровый сон] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Healthy Sleep] (* <- lang_en;; *);
+=> nrel_note:
+	[Оптимальное физиологическое и психологическое состояние, достигаемое через регулярный и качественный сон, способствующее поддержанию общего благополучия и улучшению физического и умственного здоровья.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Optimal physiological and psychological state achieved through regular and high-quality sleep, contributing to overall well-being and improvement of physical and mental health.] (* <- lang_en;; *);;
+
+poor_sleep
+<- concept_sleeping;
+=> nrel_main_idtf:
+	[Некачественный сон] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Poor Sleep] (* <- lang_en;; *);
+=> nrel_note:
+	[Состояние, характеризующееся недостаточным, нарушенным или иным образом неудовлетворительным качеством сна, что может привести к ухудшению общего здоровья и благополучия.] (* <- lang_ru;; *);
+=> nrel_note:
+    [A state characterized by insufficient, disrupted, or otherwise unsatisfactory sleep quality, which may lead to a deterioration in overall health and well-being.] (* <- lang_en;; *);;

@@ -1,0 +1,46 @@
+﻿nrel_positive_influence_on
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+	[Позитивно влияет* ] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Positive influence* ] (* <- lang_en;; *);
+=> nrel_first_domain: concept_healthy_habits;
+=> nrel_second_domain: concept_health;
+=> nrel_definitional_domain:
+    ...
+    (*
+        <= nrel_combination:
+        {
+            concept_healthy_habits;
+            concept_health
+        };;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (Позитивно влияет* )](* <- lang_ru;; *);;
+        => nrel_main_idtf:
+        	[Positive influence* ] (* <- lang_en;; *);;    
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                => rrel_example:
+                    [Позитивно влияет* - бинарное ориентированное отношение, которое описывает благоприятное воздействие положительных привычек и практик на общее здоровье и благосостояние. Это может включать в себя регулярные физические упражнения, здоровое питание, положительное мышление и другие благоприятные поведенческие практики.] (* <- lang_ru;; *);;
+                => rrel_example:
+                    [Positively Influences* - a binary-oriented relation that describes the beneficial impact of positive habits and practices on overall health and well-being. This may include regular physical exercise, healthy nutrition, positive thinking, and other favorable behavioral practices.] (* <- lang_en;; *);;    
+            *);;
+        <= nrel_using_constants:
+        {      
+            concept_healthy_habits;
+            concept_health;
+            relation
+        };;
+    *);;

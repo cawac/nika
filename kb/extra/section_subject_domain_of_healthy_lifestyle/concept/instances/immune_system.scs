@@ -1,0 +1,10 @@
+﻿antibacterial_immunity
+<- concept_immune_system;
+=> nrel_main_idtf:
+	[Противобактериальный иммунитет] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Antibacterial Immunity] (* <- lang_en;; *);
+=> nrel_note:
+	[Система защиты организма, направленная на борьбу с бактериальными инфекциями, предоставляя иммунный ответ для предотвращения и контроля бактериального роста.] (* <- lang_ru;; *);
+=> nrel_note:
+    [The body's defense system aimed at combating bacterial infections by providing an immune response to prevent and control bacterial growth.] (* <- lang_en;; *);;

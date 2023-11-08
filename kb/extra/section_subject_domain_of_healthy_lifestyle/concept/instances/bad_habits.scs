@@ -1,0 +1,10 @@
+﻿internet_addiction
+<- concept_bad_habits;
+=> nrel_main_idtf:
+	[Интернет-зависимость] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Internet Addiction] (* <- lang_en;; *);
+=> nrel_note:
+	[Патологическое состояние, характеризующееся неконтролируемым, чрезмерным использованием интернета, что может привести к негативным последствиям для здоровья, социальных отношений и общего благополучия.] (* <- lang_ru;; *);
+=> nrel_note:
+    [A pathological condition characterized by uncontrolled, excessive internet use, which may lead to negative consequences for health, social relationships, and overall well-being.] (* <- lang_en;; *);;

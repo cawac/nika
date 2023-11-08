@@ -1,0 +1,10 @@
+concept_nutrition
+<- sc_node_class;
+=> nrel_main_idtf:
+    [Питание] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Nutrition] (* <- lang_en;; *);
+=> nrel_note:
+    [Питание – это процесс по поступлению и использованию пищи организмом для обеспечения энергии и необходимых питательных веществ. Здоровое питание включает в себя балансировку разнообразных продуктов, удовлетворяющих потребности организма в витаминах, минералах, белках, жирах и углеводах.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Nutrition is the process of intake and utilization of food by the body to provide energy and essential nutrients. Healthy nutrition involves balancing a variety of foods to meet the body's needs for vitamins, minerals, proteins, fats, and carbohydrates.] (* <- lang_en;; *);;

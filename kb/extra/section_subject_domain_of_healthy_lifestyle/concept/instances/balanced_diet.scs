@@ -1,0 +1,10 @@
+﻿balanced_diet_for_weight_loss
+<- concept_balanced_diet;
+=> nrel_main_idtf:
+	[Сбалансированная диета для похудения] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Balanced Diet for Weight Loss] (* <- lang_en;; *);
+=> nrel_note:
+	[План питания, включающий разнообразные и сбалансированные продукты с учетом питательных веществ и калорий, направленный на достижение похудения с учетом здоровья и удовлетворения пищевыми потребностями.] (* <- lang_ru;; *);
+=> nrel_note:
+    [A dietary plan incorporating diverse and balanced foods, considering nutrients and calories, aimed at achieving weight loss while addressing health and satisfying nutritional needs.] (* <- lang_en;; *);;

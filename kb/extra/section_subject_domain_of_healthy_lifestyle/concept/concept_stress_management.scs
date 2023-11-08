@@ -1,0 +1,12 @@
+﻿concept_stress_management
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_healthy_habits;
+=> nrel_main_idtf:
+    [Управление стрессом] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Stress Management] (* <- lang_en;; *);
+=> nrel_note:
+    [Управление стрессом - это набор навыков, стратегий и практик, направленных на снижение и контроль уровня стресса. Включает в себя осознанный отдых, техники релаксации, и эффективное управление временем.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Stress Management is a set of skills, strategies, and practices aimed at reducing and controlling stress levels. It includes mindful relaxation, relaxation techniques, and effective time management.] (* <- lang_en;; *);;

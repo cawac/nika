@@ -1,0 +1,10 @@
+﻿personal_hygiene
+<- concept_hygiene;
+=> nrel_main_idtf:
+	[Личная гигиена] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Personal Hygiene] (* <- lang_en;; *);
+=> nrel_note:
+	[Система заботы о себе, включающая регулярные процедуры и привычки, направленные на поддержание чистоты и здоровья тела, предотвращение заболеваний и обеспечение общего благополучия.] (* <- lang_ru;; *);
+=> nrel_note:
+    [A self-care system involving regular practices and habits aimed at maintaining cleanliness and health of the body, preventing diseases, and ensuring overall well-being.] (* <- lang_en;; *);;

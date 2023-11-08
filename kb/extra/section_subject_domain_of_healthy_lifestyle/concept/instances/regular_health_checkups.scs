@@ -1,0 +1,10 @@
+﻿concept_comprehensive_health_check
+<- concept_regular_health_checkups;
+=> nrel_main_idtf:
+	[Полная проверка состояния здоровья] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Comprehensive Health Check] (* <- lang_en;; *);
+=> nrel_note:
+	[Исчерпывающий медицинский обзор, включающий различные аспекты физического и психологического состояния организма, проводимый с целью определения общего здоровья и выявления потенциальных проблем.] (* <- lang_ru;; *);
+=> nrel_note:
+    [A thorough medical examination encompassing various aspects of physical and psychological well-being, conducted to assess overall health and identify potential issues.] (* <- lang_en;; *);;

@@ -1,0 +1,10 @@
+﻿concept_immune_system
+<- sc_node_class;
+=> nrel_main_idtf:
+    [Иммунная система] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Immune System] (* <- lang_en;; *);
+=> nrel_note:
+    [Иммунная система - это комплекс биологических структур и процессов в организме, направленных на защиту от инфекций, болезнетворных микроорганизмов и других вредных воздействий. Она включает в себя белки, клетки и органы, работающие совместно для поддержания здоровья.] (* <- lang_ru;; *);
+=> nrel_note:
+    [The immune system is a complex network of biological structures and processes in the body designed to defend against infections, pathogens, and other harmful agents. It includes proteins, cells, and organs working together to maintain health.] (* <- lang_en;; *);;

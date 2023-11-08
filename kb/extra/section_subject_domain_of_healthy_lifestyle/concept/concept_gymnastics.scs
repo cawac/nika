@@ -1,0 +1,12 @@
+﻿concept_gymnastics
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_physical_activity;
+=> nrel_main_idtf:
+    [Гимнастика] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Gymnastics] (* <- lang_en;; *);
+=> nrel_note:
+    [Гимнастика - это вид физической активности, который включает в себя различные упражнения, требующие гибкости, координации и силы. Гимнастика может включать в себя элементы художественной гимнастики, акробатики, и упражнений на различных спортивных снарядах.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Gymnastics is a form of physical activity that involves various exercises requiring flexibility, coordination, and strength. It can encompass elements of artistic gymnastics, acrobatics, and exercises on various gymnastics apparatus.] (* <- lang_en;; *);;

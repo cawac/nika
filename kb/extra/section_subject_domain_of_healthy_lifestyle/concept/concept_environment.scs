@@ -1,0 +1,10 @@
+concept_environment
+<- sc_node_class;
+=> nrel_main_idtf:
+    [Окружающая среда] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Environment] (* <- lang_en;; *);
+=> nrel_note:
+    [Окружающая среда - это совокупность природных и социокультурных условий, в которых существует живой организм. Включает в себя воздух, воду, почву, климат, растения, животных и влияние человеческой деятельности.] (* <- lang_ru;; *);
+=> nrel_note:
+    [The environment is the sum of natural and sociocultural conditions in which living organisms exist. It includes air, water, soil, climate, plants, animals, and the impact of human activities.] (* <- lang_en;; *);;

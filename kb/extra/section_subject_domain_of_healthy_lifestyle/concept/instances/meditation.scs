@@ -1,0 +1,10 @@
+﻿zen_meditation
+<- concept_meditation;
+=> nrel_main_idtf:
+	[Дзен-медитация] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Zen Meditation] (* <- lang_en;; *);
+=> nrel_note:
+	[Традиционная форма медитации, присущая буддизму, направленная на достижение внутреннего спокойствия, осознанности и гармонии через фокусировку на дыхании и присутствии в текущем моменте.] (* <- lang_ru;; *);
+=> nrel_note:
+    [A traditional form of meditation associated with Buddhism, aimed at achieving inner peace, mindfulness, and harmony through focus on breath and presence in the current moment.] (* <- lang_en;; *);;

@@ -1,0 +1,10 @@
+concept_bad_habits
+<- sc_node_class;
+=> nrel_main_idtf:
+    [Вредные привычки] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Bad Habits] (* <- lang_en;; *);
+=> nrel_note:
+    [Вредные привычки представляют собой повторяющиеся негативные действия или образы поведения, которые могут негативно влиять на физическое, психическое и социальное благополучие человека. К ним относятся, например, курение, чрезмерное употребление алкоголя, и недостаток физической активности.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Bad habits are repetitive negative actions or behavioral patterns that can adversely affect an individual's physical, mental, and social well-being. Examples include smoking, excessive alcohol consumption, and lack of physical activity.] (* <- lang_en;; *);;

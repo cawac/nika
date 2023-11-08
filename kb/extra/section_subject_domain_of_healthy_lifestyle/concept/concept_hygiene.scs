@@ -1,0 +1,12 @@
+concept_hygiene
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_healthy_habits;
+=> nrel_main_idtf:
+    [Гигиена] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Hygiene] (* <- lang_en;; *);
+=> nrel_note:
+    [Гигиена представляет собой систему мероприятий, направленных на поддержание чистоты и заботу о здоровье. Это включает в себя регулярное мытье рук, уход за телом, чистоту окружающей среды, и другие привычки, способствующие предотвращению заболеваний и поддержанию общего благополучия.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Hygiene is a set of practices aimed at maintaining cleanliness and promoting health. It includes regular handwashing, personal care, environmental cleanliness, and other habits that contribute to disease prevention and overall well-being.] (* <- lang_en;; *);;

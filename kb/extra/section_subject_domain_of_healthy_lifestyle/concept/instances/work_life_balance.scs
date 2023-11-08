@@ -1,0 +1,10 @@
+﻿time_management
+<- concept_work_life_balance;
+=> nrel_main_idtf:
+	[Управление временем] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Time Management] (* <- lang_en;; *);
+=> nrel_note:
+	[Методы, стратегии и инструменты, используемые для эффективного распределения времени с целью повышения производительности и достижения личных или профессиональных целей.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Methods, strategies, and tools used for efficient time allocation with the aim of increasing productivity and achieving personal or professional goals.] (* <- lang_en;; *);;

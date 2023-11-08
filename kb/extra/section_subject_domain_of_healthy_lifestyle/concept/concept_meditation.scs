@@ -1,0 +1,10 @@
+﻿concept_meditation
+<- sc_node_class;
+=> nrel_main_idtf:
+    [Медитация] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Meditation] (* <- lang_en;; *);
+=> nrel_note:
+    [Медитация - это практика умственного и эмоционального сосредотачивания, направленная на достижение внутреннего покоя и гармонии. Обычно включает в себя осознанное дыхание, фокусировку внимания и углубленное расслабление.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Meditation is a practice of mental and emotional focus aimed at achieving inner peace and harmony. It typically involves mindful breathing, attentional focus, and deep relaxation.] (* <- lang_en;; *);;

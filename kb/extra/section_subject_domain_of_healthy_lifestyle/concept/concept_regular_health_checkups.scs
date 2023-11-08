@@ -1,0 +1,12 @@
+﻿concept_regular_health_checkups
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_healthy_habits;
+=> nrel_main_idtf:
+    [Регулярные медицинские осмотры] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Regular Health Checkups] (* <- lang_en;; *);
+=> nrel_note:
+    [Регулярные медицинские осмотры представляют собой периодические консультации с врачами и обследования для раннего выявления потенциальных заболеваний и поддержания общего здоровья. Это важная часть проактивного подхода к заботе о здоровье.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Regular health checkups are periodic consultations with healthcare professionals and examinations to detect potential illnesses early and maintain overall health. It is an important aspect of a proactive approach to health care.] (* <- lang_en;; *);;

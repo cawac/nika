@@ -1,0 +1,10 @@
+﻿mental_wellbeing
+<- concept_mental_health;
+=> nrel_main_idtf:
+	[Психическое благополучие] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Mental Wellbeing] (* <- lang_en;; *);
+=> nrel_note:
+	[Состояние психического здоровья, включающее эмоциональную стабильность, позитивные эмоции, чувство собственной ценности и способность эффективно справляться с стрессом и повседневными вызовами.] (* <- lang_ru;; *);
+=> nrel_note:
+    [The state of mental health encompassing emotional stability, positive emotions, a sense of self-worth, and the ability to effectively cope with stress and daily challenges.] (* <- lang_en;; *);;

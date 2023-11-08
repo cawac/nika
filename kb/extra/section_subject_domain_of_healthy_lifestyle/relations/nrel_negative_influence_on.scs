@@ -1,0 +1,42 @@
+nrel_negative_influence_on
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+	[Негативно влияет* ] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Negative influence* ] (* <- lang_en;; *);
+=> nrel_first_domain: concept_bad_habits;
+=> nrel_second_domain: concept_health;
+=> nrel_definitional_domain:
+    ...
+    (*
+        <= nrel_combination:
+            {
+                concept_bad_habits;
+                concept_health
+            };;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (Негативно влияет* )](* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+            -> rrel_example:
+                [Негативно влияет* - бинарное ориентированное отношение, вредные привычки и здоровье.] (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+        {      
+            concept_bad_habits;
+            concept_health;
+            relation
+        };;
+    *);;

@@ -1,0 +1,12 @@
+concept_healthy_lifestyle
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_lifestyle;
+=> nrel_main_idtf:
+    [Здоровый образ жизни] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Healthy Lifestyle] (* <- lang_en;; *);
+=> nrel_note:
+    [Способ жизни, направленный на поддержание и улучшение физического, психического и социального благополучия. Включает в себя правильное питание, физическую активность, уход за здоровьем, отказ от вредных привычек и другие практики, способствующие здоровью.] (* <- lang_ru;; *);
+=> nrel_note:
+    [A way of life aimed at maintaining and improving physical, mental, and social well-being. It includes practices such as proper nutrition, physical activity, health care, avoiding harmful habits, and other activities that contribute to overall health.] (* <- lang_en;; *);;

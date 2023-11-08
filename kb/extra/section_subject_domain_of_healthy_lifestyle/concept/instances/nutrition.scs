@@ -1,0 +1,10 @@
+﻿healthy_nutrition
+<- concept_nutrition;
+=> nrel_main_idtf:
+	[Правильное питание] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Healthy Nutrition] (* <- lang_en;; *);
+=> nrel_note:
+	[Систематическое потребление пищи, отвечающее диетическим и питательным потребностям организма, способствующее поддержанию здоровья, укреплению иммунитета и предотвращению различных заболеваний.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Systematic consumption of food that meets the dietary and nutritional needs of the body, promoting health maintenance, immune system strengthening, and prevention of various diseases.] (* <- lang_en;; *);;

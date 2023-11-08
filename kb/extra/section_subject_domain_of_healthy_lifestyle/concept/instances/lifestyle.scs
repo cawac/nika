@@ -1,0 +1,10 @@
+﻿sedentary_lifestyle
+<- concept_lifestyle;
+=> nrel_main_idtf:
+	[Сидячий образ жизни] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Sedentary Lifestyle] (* <- lang_en;; *);
+=> nrel_note:
+	[Способ жизни, характеризующийся длительными периодами сидения и ограниченной физической активностью, что может негативно сказываться на общем здоровье и физической форме.] (* <- lang_ru;; *);
+=> nrel_note:
+    [A lifestyle characterized by extended periods of sitting and limited physical activity, which may have negative effects on overall health and physical fitness.] (* <- lang_en;; *);;

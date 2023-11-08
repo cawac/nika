@@ -1,0 +1,10 @@
+﻿concept_emotional_health
+<- sc_node_class;
+=> nrel_main_idtf:
+    [Эмоциональное здоровье] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Emotional Health] (* <- lang_en;; *);
+=> nrel_note:
+    [Эмоциональное здоровье - это состояние благополучия, когда человек эффективно справляется с эмоциональными вызовами жизни. Оно включает в себя умение управлять стрессом, развивать позитивные отношения, и осознавать и выражать свои эмоции.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Emotional Health is a state of well-being where an individual effectively copes with the emotional challenges of life. It involves the ability to manage stress, cultivate positive relationships, and be aware of and express one's emotions.] (* <- lang_en;; *);;

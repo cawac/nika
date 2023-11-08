@@ -1,0 +1,10 @@
+﻿bicycling
+<- concept_aerobic_activity;
+=> nrel_main_idtf:
+	[Езда на велосипеде] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Bicycling] (* <- lang_en;; *);
+=> nrel_note:
+	[Физическая активность, включающая передвижение на велосипеде, способствующая укреплению мышц, улучшению сердечно-сосудистой системы и общей физической формы.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Physical activity involving the use of a bicycle, promoting muscle strength, cardiovascular health, and overall physical fitness.] (* <- lang_en;; *);;

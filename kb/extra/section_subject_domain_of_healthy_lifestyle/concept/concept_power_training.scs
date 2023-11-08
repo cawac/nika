@@ -1,0 +1,12 @@
+﻿concept_power_training
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_physical_activity;
+=> nrel_main_idtf:
+    [Силовая тренировка] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Power Training] (* <- lang_en;; *);
+=> nrel_note:
+    [Силовая тренировка - это вид физической активности, направленный на развитие силы и мощности мышц. Она включает в себя упражнения с отягощениями, такие как поднятие гантелей или работа с тренажерами, способствуя укреплению мышечной массы и повышению физической выносливости.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Power training is a form of physical activity aimed at developing muscle strength and power. It includes resistance exercises, such as lifting weights or using machines, promoting muscle mass strengthening and enhancing physical endurance.] (* <- lang_en;; *);;

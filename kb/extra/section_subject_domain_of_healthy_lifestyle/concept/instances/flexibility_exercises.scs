@@ -1,0 +1,10 @@
+﻿sphinx_pose
+<- concept_flexibility_exercises;
+=> nrel_main_idtf:
+	[Упражнение "Сфинкс"] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Sphinx Pose Exercise] (* <- lang_en;; *);
+=> nrel_note:
+	[Поза в йоге, также известная как "Сфинкс", в которой тело поддерживается на предплечьях, а спина выгибается вверх, напоминая положение египетской сфинкса. Упражнение направлено на укрепление спины и растяжение позвоночника.] (* <- lang_ru;; *);
+=> nrel_note:
+    [A yoga pose, also known as the "Sphinx," where the body is supported on the forearms, and the back arches upward, resembling the position of the Egyptian sphinx. The exercise aims to strengthen the back and stretch the spine.] (* <- lang_en;; *);;

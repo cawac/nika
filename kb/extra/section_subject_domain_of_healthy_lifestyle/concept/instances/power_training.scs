@@ -1,0 +1,10 @@
+﻿concept_strength_training_for_fat_burning
+<- concept_power_training;
+=> nrel_main_idtf:
+	[Силовые тренировки для сжигания жира] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Strength Training for Fat Burning] (* <- lang_en;; *);
+=> nrel_note:
+	[Физические упражнения с использованием силовых нагрузок, направленные на активное сжигание жира, повышение общего уровня физической активности и улучшение метаболизма.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Physical exercises involving strength training aimed at actively burning fat, increasing overall physical activity, and improving metabolism.] (* <- lang_en;; *);;

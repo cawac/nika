@@ -1,0 +1,12 @@
+﻿concept_active_lifestyle
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_lifestyle;
+=> nrel_main_idtf:
+    [Активный образ жизни] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Active Lifestyle] (* <- lang_en;; *);
+=> nrel_note:
+    [Активный образ жизни - это способ жизни, включающий регулярную физическую активность и заботу о здоровье. Включает в себя занятия спортом, физические упражнения, и общее стремление к поддержанию активности в повседневной жизни.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Active Lifestyle is a way of life that involves regular physical activity and a commitment to health. It includes sports, physical exercises, and a general commitment to maintaining activity in daily life.] (* <- lang_en;; *);;

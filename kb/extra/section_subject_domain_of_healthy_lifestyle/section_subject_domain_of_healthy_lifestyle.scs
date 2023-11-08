@@ -1,0 +1,79 @@
+section_subject_domain_of_healthy_lifestyle
+=> nrel_main_idtf:
+    [Раздел. Предметная область Здоровый Образ Жизни] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. Subject domain of Healthy Lifestyle]   (* <- lang_en;; *);
+<- atomic_section;;
+
+section_subject_domain_of_healthy_lifestyle = [*
+subject_domain_of_healthy_lifestyle
+<- sc_node_struct;
+    => nrel_main_idtf:
+        [Предметная область Здоровый Образ Жизни] (* <- lang_ru;; *);
+    => nrel_main_idtf:    
+        [Subject domain of Healthy Lifestyle]  (* <- lang_en;; *);
+    <- subject_domain;
+    -> rrel_maximum_studied_object_class:
+        concept_health;
+        concept_lifestyle;
+    -> rrel_not_maximum_studied_object_class:
+        concept_healthy_lifestyle;
+        concept_nutrition;
+        concept_hygiene;
+        concept_sleeping;
+        concept_environment;
+        concept_bad_habits;
+        concept_healthy_habits;
+        concept_bad_habits;
+        concept_physical_activity;
+        concept_immune_system;
+        concept_regular_physical_activity;
+        concept_regular_health_checkups;
+        concept_power_training;
+        concept_run;
+        concept_gymnastics;
+        concept_balanced_diet;
+        concept_emotional_health;
+        concept_meditation;
+        concept_stress_management;
+        concept_active_lifestyle;
+        concept_work_life_balance;
+        concept_aerobic_activity;
+        concept_flexibility_exercises;
+    -> rrel_explored_relation:
+        nrel_consists_of;
+        nrel_negative_influence_on;
+        nrel_positive_influence_on;;
+*];;
+
+section_subject_domain_of_healthy_lifestyle
+-> rrel_key_sc_element:
+    subject_domain_of_healthy_lifestyle;
+    concept_health;
+    concept_lifestyle;
+    concept_healthy_lifestyle;
+    concept_nutrition;
+    concept_hygiene;
+    concept_sleeping;
+    concept_environment;
+    concept_mental_health;
+    concept_healthy_habits;
+    concept_bad_habits;
+    concept_physical_activity;
+    concept_immune_system;
+    concept_regular_physical_activity;
+    concept_regular_health_checkups;
+    concept_power_training;
+    concept_run;
+    concept_gymnastics;
+    concept_balanced_diet;
+    concept_emotional_health;
+    concept_meditation;
+    concept_stress_management;
+    concept_active_lifestyle;
+    concept_work_life_balance;
+    concept_aerobic_activity;
+    concept_flexibility_exercises;
+    nrel_consists_of;
+    nrel_negative_influence_on;
+    nrel_positive_influence_on;;

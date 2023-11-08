@@ -1,0 +1,12 @@
+﻿concept_run
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_physical_activity;
+=> nrel_main_idtf:
+    [Бег] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Running] (* <- lang_en;; *);
+=> nrel_note:
+    [Бег - это форма физической активности, при которой человек передвигается быстрым темпом, опираясь на ноги. Бег способствует улучшению кардиоваскулярной системы, укреплению мышц, и повышению общей физической выносливости.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Running is a form of physical activity where an individual moves at a fast pace, relying on their legs. It contributes to improving cardiovascular health, strengthening muscles, and enhancing overall physical endurance.] (* <- lang_en;; *);;

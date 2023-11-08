@@ -1,0 +1,12 @@
+﻿concept_aerobic_activity
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_physical_activity;
+=> nrel_main_idtf:
+    [Аэробная активность] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Aerobic Activity] (* <- lang_en;; *);
+=> nrel_note:
+    [Аэробная активность - это форма физической активности, при которой участвуют большие группы мышц, и происходит улучшение кардио-респираторной системы. Примеры включают бег, плавание и велосипедные прогулки.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Aerobic Activity is a form of physical activity that involves large muscle groups and improves the cardiorespiratory system. Examples include running, swimming, and cycling.] (* <- lang_en;; *);;

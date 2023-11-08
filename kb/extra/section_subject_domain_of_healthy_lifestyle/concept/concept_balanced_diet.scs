@@ -1,0 +1,12 @@
+﻿concept_balanced_diet
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_healthy_habits;
+=> nrel_main_idtf:
+    [Сбалансированное питание] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Balanced Diet] (* <- lang_en;; *);
+=> nrel_note:
+    [Сбалансированное питание - это рацион, который содержит все необходимые питательные вещества в правильных пропорциях для поддержания здоровья и хорошего физического состояния. Оно включает в себя сочетание белков, углеводов, жиров, витаминов и минералов.] (* <- lang_ru;; *);
+=> nrel_note:
+    [A balanced diet is a meal plan that includes all the necessary nutrients in the right proportions to maintain health and well-being. It comprises a combination of proteins, carbohydrates, fats, vitamins, and minerals.] (* <- lang_en;; *);;

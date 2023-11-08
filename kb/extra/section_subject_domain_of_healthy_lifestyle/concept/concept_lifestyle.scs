@@ -1,0 +1,10 @@
+concept_lifestyle
+<- sc_node_class;
+=> nrel_main_idtf:
+    [Образ жизни] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Lifestyle] (* <- lang_en;; *);
+=> nrel_note:
+    [Образ жизни - это уникальный способ жизни, включающий в себя поведенческие, культурные, и социальные привычки, а также выборы и привычки, которые формируют ежедневную жизнь человека. Образ жизни может включать в себя питание, физическую активность, отношения и другие аспекты.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Lifestyle is a unique way of life encompassing behavioral, cultural, and social habits, as well as choices and routines that shape an individual's daily existence. Lifestyle may include aspects such as diet, physical activity, relationships, and more.] (* <- lang_en;; *);;

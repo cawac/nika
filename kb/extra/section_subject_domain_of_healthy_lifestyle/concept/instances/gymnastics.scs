@@ -1,0 +1,10 @@
+﻿sport_gymnastics
+<- concept_gymnastics;
+=> nrel_main_idtf:
+	[Спортивная гимнастика] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Sport Gymnastics] (* <- lang_en;; *);
+=> nrel_note:
+	[Вид физической активности, включающий комплекс упражнений, направленных на развитие гибкости, силы, координации и эстетического восприятия, часто применяемый в соревновательном спорте.] (* <- lang_ru;; *);
+=> nrel_note:
+    [A form of physical activity involving a set of exercises aimed at developing flexibility, strength, coordination, and aesthetic perception, often used in competitive sports.] (* <- lang_en;; *);;

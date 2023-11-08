@@ -1,0 +1,10 @@
+﻿social_environment
+<- concept_environment;
+=> nrel_main_idtf:
+	[Социальная среда] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Social Environment] (* <- lang_en;; *);
+=> nrel_note:
+	[Общество и взаимодействие между людьми, включая социокультурные факторы, нормы, ценности и отношения, в которых индивид взаимодействует с окружающими.] (* <- lang_ru;; *);
+=> nrel_note:
+    [The society and interactions between individuals, including sociocultural factors, norms, values, and relationships within which an individual interacts with others.] (* <- lang_en;; *);;

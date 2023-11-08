@@ -1,0 +1,11 @@
+﻿regular_running
+<- concept_run;
+<- concept_aerobic_activity;
+=> nrel_main_idtf:
+	[Регулярный бег] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Regular Running] (* <- lang_en;; *);
+=> nrel_note:
+	[Систематическая физическая активность, включающая регулярные сеансы бега, способствующая укреплению сердечно-сосудистой системы, улучшению физической формы и поддержанию общего здоровья.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Systematic physical activity involving regular running sessions, contributing to cardiovascular health, improvement of physical fitness, and overall well-being.] (* <- lang_en;; *);;

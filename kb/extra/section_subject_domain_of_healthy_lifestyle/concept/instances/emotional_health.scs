@@ -1,0 +1,10 @@
+﻿affective_state
+<- concept_emotional_health;
+=> nrel_main_idtf:
+	[Состояния Аффекта] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Affective States] (* <- lang_en;; *);
+=> nrel_note:
+	[Эмоциональные состояния, охватывающие широкий спектр эмоций и чувств, которые могут варьировать от радости и удовлетворения до грусти и стресса, определяя эмоциональный опыт индивида.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Emotional states encompassing a wide range of emotions and feelings that can vary from joy and satisfaction to sadness and stress, defining an individual's emotional experience.] (* <- lang_en;; *);;

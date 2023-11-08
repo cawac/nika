@@ -1,0 +1,126 @@
+nrel_consists_of
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+	[Состоит из* ] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Consists of* ] (* <- lang_en;; *);
+	
+=> nrel_first_domain: 
+    {
+        concept_healthy_lifestyle;
+        concept_health
+    };
+
+=> nrel_second_domain: 
+    {
+        concept_nutrition;
+        concept_hygiene;
+        concept_sleeping;
+        concept_environment;
+        concept_mental_health;
+        concept_healthy_habits;
+        concept_bad_habits;
+        concept_physical_activity;
+        concept_immune_system;
+        concept_regular_physical_activity;
+        concept_regular_health_checkups;
+        concept_power_training;
+        concept_run;
+        concept_gymnastics;
+        concept_balanced_diet;
+        concept_emotional_health;
+        concept_meditation;
+        concept_stress_management;
+        concept_active_lifestyle;
+        concept_work_life_balance;
+        concept_aerobic_activity;
+        concept_flexibility_exercises
+    };
+
+=> nrel_definitional_domain:
+    ...
+    (*
+        <= nrel_combination:
+        {
+            concept_healthy_lifestyle;
+            concept_nutrition;
+            concept_hygiene;
+            concept_sleeping;
+            concept_environment;
+            concept_mental_health;
+            concept_healthy_habits;
+            concept_bad_habits;
+            concept_physical_activity;
+            concept_immune_system;
+            concept_regular_physical_activity;
+            concept_regular_health_checkups;
+            concept_power_training;
+            concept_run;
+            concept_gymnastics;
+            concept_balanced_diet;
+            concept_emotional_health;
+            concept_meditation;
+            concept_stress_management;
+            concept_active_lifestyle;
+            concept_work_life_balance;
+            concept_aerobic_activity;
+            concept_flexibility_exercises
+        };;
+        <= nrel_combination:
+        {
+            concept_health;
+            concept_nutrition;
+            concept_hygiene;
+            concept_sleeping;
+            concept_environment;
+            concept_mental_health;
+            concept_healthy_habits;
+            concept_bad_habits;
+            concept_physical_activity;
+            concept_immune_system;
+            concept_regular_physical_activity;
+            concept_regular_health_checkups;
+            concept_power_training;
+            concept_run;
+            concept_gymnastics;
+            concept_balanced_diet;
+            concept_emotional_health;
+            concept_meditation;
+            concept_stress_management;
+            concept_active_lifestyle;
+            concept_work_life_balance;
+            concept_aerobic_activity;
+            concept_flexibility_exercises
+        };;
+    *);
+   
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (Состоит из* )] (* <- lang_ru;; *);;
+        => nrel_main_idtf:
+            [DF. (Consists of* )] (* <- lang_en;; *);;   
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Состоит из* - бинарное ориентированное отношение, связывающее здоровый образ жизни и его основные компоненты.] (* <- lang_ru;; *);;
+                -> rrel_example:
+                    [Consists of* - binary oriented attitude linking a healthy lifestyle and its main components.] (* <- lang_en;; *);;                
+            *);;
+        <= nrel_using_constants:
+            {
+            concept_clothes;
+            concept_material;
+            relation
+            };;
+  *);;

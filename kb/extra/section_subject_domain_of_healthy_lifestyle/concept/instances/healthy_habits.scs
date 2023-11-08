@@ -1,0 +1,10 @@
+﻿daily_hydration
+<- concept_health_habits;
+=> nrel_main_idtf:
+	[Ежедневная гидратация] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Daily Hydration] (* <- lang_en;; *);
+=> nrel_note:
+	[Систематическое употребление достаточного количества воды каждый день с целью поддержания нормального уровня гидратации организма и обеспечения его здоровья и функций.] (* <- lang_ru;; *);
+=> nrel_note:
+    [The systematic intake of an adequate amount of water every day to maintain normal body hydration levels and support overall health and functioning.] (* <- lang_en;; *);;

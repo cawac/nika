@@ -1,0 +1,12 @@
+﻿concept_work_life_balance
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_lifestyle;
+=> nrel_main_idtf:
+    [Баланс работы и личной жизни] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Work-Life Balance] (* <- lang_en;; *);
+=> nrel_note:
+    [Баланс работы и личной жизни - это стремление к равновесию между профессиональной деятельностью и личным временем. Это включает в себя умение эффективно управлять рабочими обязанностями, не забывая о заботе о себе, семье и отдыхе.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Work-Life Balance is the pursuit of equilibrium between professional activities and personal time. It involves the ability to manage work responsibilities effectively while still caring for oneself, family, and leisure.] (* <- lang_en;; *);;

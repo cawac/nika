@@ -1,0 +1,12 @@
+﻿concept_flexibility_exercises
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_physical_activity;
+=> nrel_main_idtf:
+    [Упражнения на гибкость] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Flexibility Exercises] (* <- lang_en;; *);
+=> nrel_note:
+    [Упражнения на гибкость - это физические упражнения, направленные на улучшение подвижности суставов и растяжение мышц. Они могут включать в себя стретчинг, йогу и другие методы, направленные на развитие гибкости.] (* <- lang_ru;; *);
+=> nrel_note:
+    [Flexibility Exercises are physical activities aimed at improving joint mobility and stretching muscles. They may include stretching, yoga, and other methods designed to enhance flexibility.] (* <- lang_en;; *);;
