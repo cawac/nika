@@ -1,4 +1,4 @@
-nrel_consists_of
+nrel_consist_of
 <- sc_node_norole_relation;
 <- relation;
 <- binary_relation;
@@ -119,8 +119,30 @@ nrel_consists_of
             *);;
         <= nrel_using_constants:
             {
-            concept_clothes;
-            concept_material;
+            concept_healthy_lifestyle;
+            concept_health;
+            concept_nutrition;
+            concept_hygiene;
+            concept_sleeping;
+            concept_environment;
+            concept_mental_health;
+            concept_healthy_habits;
+            concept_bad_habits;
+            concept_physical_activity;
+            concept_immune_system;
+            concept_regular_physical_activity;
+            concept_regular_health_checkups;
+            concept_power_training;
+            concept_run;
+            concept_gymnastics;
+            concept_balanced_diet;
+            concept_emotional_health;
+            concept_meditation;
+            concept_stress_management;
+            concept_active_lifestyle;
+            concept_work_life_balance;
+            concept_aerobic_activity;
+            concept_flexibility_exercises;
             relation
             };;
   *);;

@@ -1,0 +1,28 @@
+concept_phrase_about_negative_influence_on
+<- sc_node_class;
+=> nrel_main_idtf:
+	[фраза про негативное влияние]
+	(* <- lang_ru;; *);
+	[phrase about negative influence]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (фраза про негативное влияние)]
+		(* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Фраза про негативное влияние - фраза, содержащая информацию про негативное влияние.]
+			(* <- lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_phrase
+		};;
+	*);
+-> concept_message_about_negative_influence_on;;
+

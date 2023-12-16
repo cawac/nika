@@ -1,9 +1,12 @@
 ﻿concept_healthy_habits
 <- sc_node_class;
+<- concept_wit_entity;
 => nrel_main_idtf:
     [Здоровые привычки] (* <- lang_ru;; *);
 => nrel_main_idtf:
     [Healthy Habits] (* <- lang_en;; *);
+=> nrel_positive_influence_on:
+	concept_health;
 => nrel_note:
     [Здоровые привычки - это поведенческие практики, способствующие общему благополучию и поддержанию здоровья. К ним относятся регулярное упражнение, балансированное питание, достаточный сон и другие действия, направленные на поддержание физического и психологического здоровья.] (* <- lang_ru;; *);
 => nrel_note:

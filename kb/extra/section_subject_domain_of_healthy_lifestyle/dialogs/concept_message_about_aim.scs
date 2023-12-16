@@ -1,0 +1,13 @@
+concept_message_about_aim
+<- sc_node_not_relation;
+=> nrel_main_idtf: [сообщение о цели] (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf: [about_aim];
+<- rrel_key_sc_element: ... (*
+    => nrel_main_idtf: [Опр. (сообщение о цели)] (* <- lang_ru;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation: ... (*
+        -> rrel_example: [Сообщение о цели - атомарное сообщение, которое содержит информацию, о различных целях фильмов ужасов.] (* <- lang_ru;; *);;
+    *);;
+    <= nrel_using_constants: { concept_atomic_message };;
+*);
+<- concept_intent_possible_class;;

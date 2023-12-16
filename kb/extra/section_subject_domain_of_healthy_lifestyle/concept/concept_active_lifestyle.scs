@@ -1,5 +1,6 @@
 ﻿concept_active_lifestyle
 <- sc_node_class;
+<- concept_wit_entity;
 <= nrel_inclusion:
 	concept_lifestyle;
 => nrel_main_idtf:

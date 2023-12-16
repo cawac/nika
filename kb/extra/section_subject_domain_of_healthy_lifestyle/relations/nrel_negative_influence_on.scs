@@ -7,9 +7,9 @@ nrel_negative_influence_on
 <- asymmetric_relation;
 <- antitransitive_relation;
 => nrel_main_idtf:
-	[Негативно влияет* ] (* <- lang_ru;; *);
+	[Негативно влияет на* ] (* <- lang_ru;; *);
 => nrel_main_idtf:
-	[Negative influence* ] (* <- lang_en;; *);
+	[Negative influence on* ] (* <- lang_en;; *);
 => nrel_first_domain: concept_bad_habits;
 => nrel_second_domain: concept_health;
 => nrel_definitional_domain:
@@ -25,13 +25,13 @@ nrel_negative_influence_on
     ...
     (*
         => nrel_main_idtf:
-            [Опр. (Негативно влияет* )](* <- lang_ru;; *);;
+            [Опр. (Негативно влияет на* )](* <- lang_ru;; *);;
         <- definition;;
         <= nrel_sc_text_translation:
             ...
             (*
             -> rrel_example:
-                [Негативно влияет* - бинарное ориентированное отношение, вредные привычки и здоровье.] (* <- lang_ru;; *);;
+                [Негативно влияет на* - бинарное ориентированное отношение, вредные привычки и здоровье.] (* <- lang_ru;; *);;
             *);;
         <= nrel_using_constants:
         {      

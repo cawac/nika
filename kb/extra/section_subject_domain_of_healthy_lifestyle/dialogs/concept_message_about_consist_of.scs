@@ -1,0 +1,16 @@
+concept_message_about_consist_of
+<- sc_node_not_relation;
+<- concept_intent_possible_class;
+=> nrel_main_idtf: [сообщение о части]	(* <- lang_ru;; *);
+=> nrel_wit_ai_idtf: [about_consist_of];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf: [Опр. (сообщение о части)] (* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation: ... (*
+        -> rrel_example: [Сообщение о части - атомарное сообщение, которое содержит сущность из предметной области печатные издания, информацию о которой необходимо найти.] (* <- lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		{ concept_atomic_message };;
+	*);;

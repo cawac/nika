@@ -1,0 +1,7 @@
+{
+    "version": 20200513,
+    "zip-command": "zip subject_domain_healthy_lifestyle.zip subject_domain_healthy_lifestyle\/app.json subject_domain_healthy_lifestyle\/entities\/*.json subject_domain_healthy_lifestyle\/intents\/*.json subject_domain_healthy_lifestyle\/traits\/*.json subject_domain_healthy_lifestyle\/utterances\/*.json subject_domain_healthy_lifestyle\/composer\/*.json",
+    "name": "subject_domain_healthy_lifestyle",
+    "lang": "ru",
+    "timezone": "America\/Los_Angeles"
+}

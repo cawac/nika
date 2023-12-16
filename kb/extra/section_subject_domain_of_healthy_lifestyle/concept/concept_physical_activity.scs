@@ -1,5 +1,6 @@
 concept_physical_activity
 <- sc_node_class;
+<- concept_wit_entity;
 <= nrel_inclusion:
 	concept_healthy_habits;
 => nrel_main_idtf:

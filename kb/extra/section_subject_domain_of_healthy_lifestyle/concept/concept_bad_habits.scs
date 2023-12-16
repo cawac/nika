@@ -1,5 +1,6 @@
 concept_bad_habits
 <- sc_node_class;
+<- concept_wit_entity;
 => nrel_main_idtf:
     [Вредные привычки] (* <- lang_ru;; *);
 => nrel_main_idtf:

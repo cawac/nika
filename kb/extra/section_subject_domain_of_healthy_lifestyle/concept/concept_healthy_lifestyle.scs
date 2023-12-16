@@ -1,9 +1,35 @@
 concept_healthy_lifestyle
 <- sc_node_class;
+<- concept_wit_entity;
 <= nrel_inclusion:
 	concept_lifestyle;
 => nrel_main_idtf:
     [Здоровый образ жизни] (* <- lang_ru;; *);
+=> nrel_consist_of:
+{
+        concept_nutrition;
+        concept_hygiene;
+        concept_sleeping;
+        concept_environment;
+        concept_mental_health;
+        concept_healthy_habits;
+        concept_bad_habits;
+        concept_physical_activity;
+        concept_immune_system;
+        concept_regular_physical_activity;
+        concept_regular_health_checkups;
+        concept_power_training;
+        concept_run;
+        concept_gymnastics;
+        concept_balanced_diet;
+        concept_emotional_health;
+        concept_meditation;
+        concept_stress_management;
+        concept_active_lifestyle;
+        concept_work_life_balance;
+        concept_aerobic_activity;
+        concept_flexibility_exercises
+};
 => nrel_main_idtf:
     [Healthy Lifestyle] (* <- lang_en;; *);
 => nrel_note:
